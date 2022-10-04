@@ -84,25 +84,25 @@ const Header = ({type}) => {
             <div className={type === "smallHeader" ? "h-col smallHeader" : "h-col"}>
                 <div className="icons">
                    
-                    <div className="icon">
+                    <div className="icon text-center">
                         <FontAwesomeIcon icon={faPlane} />
                         <Link to='/'>Flights</Link>  
-                    </div> <div className="icon active">
+                    </div> <div className="icon text-center ">
                         <FontAwesomeIcon icon={faBed} />
                         <Link to='/'>Stays</Link>                
                       </div>
                       
-                    <div className="icon">
+                    <div className="icon text-center">
                         <FontAwesomeIcon icon={faCar} />
                         <Link to='/'>Car Rentals</Link>  
                     </div>
-                    <div className="icon">
+                    <div className="icon text-center">
                         <FontAwesomeIcon icon={faCamera} />
                         <Link to='/'>Attractions</Link>  
                     </div>
-                    <div className="icon">
+                    <div className="icon text-center">
                         <FontAwesomeIcon icon={faTaxi} />
-                        <Link to='/'>Airport Taxis</Link>  
+                        <Link to='/'>Airport</Link>  
                     </div>
                 </div>
             </div>
