@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className="footerRow">
-        <div className="footerCol">
+      <div className="footerRow row">
+        <div className="footerCol col">
           <ul>
             <li>
               <Link to="/">Countries</Link>
@@ -25,7 +25,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footerCol">
+        <div className="footerCol col">
           <ul>
             <li>
               <Link to="/">Homes</Link>
@@ -44,7 +44,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="footerCol">
+        <div className="footerCol col">
           <ul>
             <li>
               <Link to="/">All destinations</Link>
@@ -56,11 +56,11 @@ const Footer = () => {
               <Link to="/">Reviews</Link>
             </li>
             <li>
-              <Link to="/">Seasonal and holiday deals</Link>
+              <Link to="/">holiday deals</Link>
             </li>
           </ul>
         </div>
-        <div className="footerCol">
+        <div className="footerCol col ">
           <ul>
             <li>
               <Link to="/">Car rental</Link>
@@ -69,7 +69,7 @@ const Footer = () => {
               <Link to="/">Flight Finder</Link>
             </li>
             <li>
-              <Link to="/">Restaurant reservations</Link>
+              <Link to="/">Reservations</Link>
             </li>
             <li>
               <Link to="/">Careers</Link>

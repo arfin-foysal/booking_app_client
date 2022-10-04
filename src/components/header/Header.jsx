@@ -114,7 +114,7 @@ const Header = ({type}) => {
                   
                     <div className="h-col">
                         <div className="search">
-                            <div className="search-item">
+                            <div className="search-item d-none d-md-block ">
                                 <FontAwesomeIcon icon={faBed} />
                                 <input type="text" onChange={(e) => setDestination(e.target.value)} placeholder='Where are you going?' />
                             </div>
@@ -169,7 +169,7 @@ const Header = ({type}) => {
                             </div>
 
                             <div className="search-item">
-                                <button className='btnSearch' onClick={handleSearch}>Search</button>
+                                <button className='btn btn-dark' onClick={handleSearch}>Search</button>
                             </div>
                         </div>
                     </div>
